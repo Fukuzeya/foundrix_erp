@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL \"https://raw.githubusercontent.com/odoo/odoo/refs/heads/master/odoo/addons/base/models/res_partner.py\" -o /tmp/res_partner.py)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

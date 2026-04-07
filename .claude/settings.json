@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -sL https://api.github.com/search/code?q=res.partner.title+repo:odoo/odoo+path:odoo/addons/base -H 'Accept: application/vnd.github.v3+json')",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(item[''''path'''']\\) for item in data.get\\(''''items'''',[]\\)]\")",
+      "Bash(\"c:/Users/hp/Desktop/Foundrix ERP/src/modules/contacts/__init__.py\")"
+    ]
+  }
+}
