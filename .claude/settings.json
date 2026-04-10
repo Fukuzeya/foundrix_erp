@@ -5,7 +5,22 @@
       "WebFetch(domain:github.com)",
       "Bash(curl -sL https://api.github.com/search/code?q=res.partner.title+repo:odoo/odoo+path:odoo/addons/base -H 'Accept: application/vnd.github.v3+json')",
       "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(item[''''path'''']\\) for item in data.get\\(''''items'''',[]\\)]\")",
-      "Bash(\"c:/Users/hp/Desktop/Foundrix ERP/src/modules/contacts/__init__.py\")"
+      "Bash(\"c:/Users/hp/Desktop/Foundrix ERP/src/modules/contacts/__init__.py\")",
+      "Bash(curl -sL https://raw.githubusercontent.com/odoo/odoo/refs/heads/master/addons/product/models/product_template.py)",
+      "Bash(curl -sL https://raw.githubusercontent.com/odoo/odoo/refs/heads/master/addons/product/models/product_product.py)",
+      "Bash(curl -sL https://raw.githubusercontent.com/odoo/odoo/refs/heads/master/addons/product/models/product_category.py)",
+      "Bash(curl -sL https://raw.githubusercontent.com/odoo/odoo/refs/heads/master/addons/product/models/product_pricelist.py)",
+      "Bash(curl -sL https://raw.githubusercontent.com/odoo/odoo/refs/heads/master/addons/product/models/product_pricelist_item.py)",
+      "Bash(curl -sL https://raw.githubusercontent.com/odoo/odoo/refs/heads/master/addons/uom/models/uom_uom.py)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/odoo/odoo/refs/heads/master/addons/account/models/account_account.py\" -o /tmp/account_account.py)",
+      "Bash(curl -sL https://github.com/odoo/odoo/tree/master/addons/account/models)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/hp/Desktop/Foundrix ERP/**)",
+      "Bash(done)",
+      "Bash(grep \"^class \" src/modules/invoicing/repositories/*.py)",
+      "Bash(wc -l src/modules/accounting/services/*.py src/modules/accounting/models/*.py)",
+      "Bash(find src/core/currency -type f -name *.py)"
     ]
   }
 }

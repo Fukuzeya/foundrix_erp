@@ -1,0 +1,26 @@
+read how odoo 19 implemented its product features from 
+https://github.com/odoo/odoo
+
+then analyse 
+1. Core entities (with descriptions)
+2. Key workflows (step-by-step)
+3. Business rules
+4. Edge cases
+5. Dependecies
+
+Based on the extracted module logic, design a Clean Architecture system using FastAPI.
+
+Include:
+- Domain models
+- Use cases
+- API endpoints
+- Database schema
+
+Keep it production-ready.
+
+Generate FastAPI code for the module using the design above.
+
+Follow:
+- Clean Architecture
+- Separation of concerns
+- Scalable structure
